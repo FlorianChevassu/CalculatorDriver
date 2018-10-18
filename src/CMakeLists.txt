@@ -1,0 +1,4 @@
+find_package(CalculatorLibs REQUIRED)
+
+add_executable(CalculatorDriver CalculatorDriver.cpp)
+target_link_libraries(CalculatorDriver PRIVATE AdderLib SubstractorLib)
